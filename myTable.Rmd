@@ -31,14 +31,14 @@ Now, we create a function in R/gen_table.R
 
 gen_table <- function(x){
   cat("Multiplication Table of", x, "\n")
-  for(i in 1:x){
+  for(i in 1:10){
     y <- x * i
     cat(x, "*", i, "=", y, "\n")
   }
 }
 
 
-gen_table(10)
+gen_table(100)
 ```
 
 ```{r}

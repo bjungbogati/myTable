@@ -11,7 +11,7 @@
 
 gen_table <- function(x){
   cat("Multiplication Table of", x, "\n")
-  for(i in 1:x){
+  for(i in 1:10){
     y <- x * i
     cat(x, "*", i, "=", y, "\n")
   }
